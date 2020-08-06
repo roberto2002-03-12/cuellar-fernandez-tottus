@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <title>Supermercados</title>
+  </head>
+  <body>
+    <!-------barra de la pagina = navbar---------->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <a class="navbar-brand" href="#">
+          <!--Aqui va la imagen del logo--->
+    <img src="img/logo.jpg" width="260" height="60" alt="" loading="lazy">
+  </a>
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="experimento.html"><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="sub-index.html" target="_blank">Tiendas</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="Actividad02.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Empresa
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="index1.html"> Nuestra Historia</a>
+          <a class="dropdown-item" href="sub-index.html">Nuestras Tiendas</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="sub-index.html">Nuestros Productos</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="sub-index.html" tabindex="-1" aria-disabled="true">Reglamentos</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+  </div>
+</nav>
+    <!--------Contenido----------------------->
+  
+    <div class="jumbotron">
+    <h1 class="display-4">¡Conoce algunas de nuestras cedes!</h1>
+    <p class="lead">Estas son las mas cercanas a tu ubicación</p>
+    <hr class="my-4">
+    <p>Para esto ultilizaremos Google Maps </p>
+    <!-----card groups 2x2------------>
+    <div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <!--Mapa 1----------->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62441.28145869266!2d-76.97903735238964!3d-12.00353078683921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c58b920d2ea7%3A0xa9219292a0d6fe52!2sTottus!5e0!3m2!1ses!2spe!4v1596673471757!5m2!1ses!2spe" width="505" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+     
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <!---Mapa 2-------------------->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62441.28145869266!2d-76.97903735238964!3d-12.00353078683921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c57fdbc8e9b1%3A0x7f8f0965a1697245!2sTottus!5e0!3m2!1ses!2spe!4v1596673718626!5m2!1ses!2spe" width="505" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+       <!---Mapa 3---------------------->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62441.28145869266!2d-76.97903735238964!3d-12.00353078683921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c607e943948d%3A0x9ea6dd000373d469!2sTottus!5e0!3m2!1ses!2spe!4v1596673935240!5m2!1ses!2spe" width="509" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <!---Mapa 4---------------------------->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62428.893944205076!2d-77.00575292089843!3d-12.056873999999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c666ce1ae589%3A0x44736a921e2ed64b!2sTottus!5e0!3m2!1ses!2spe!4v1596674119089!5m2!1ses!2spe" width="508" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      
+    </div>
+  </div>
+</div>
+     <a class="btn btn-primary btn-lg" href="Principal.html" role="button">Volver a la Principal</a>
+    </div>
+        <!-------Card - group--------------->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+  </body>
+</html>
